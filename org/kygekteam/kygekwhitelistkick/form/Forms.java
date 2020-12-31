@@ -8,6 +8,8 @@
  * (at your option) any later version.
  */
 
+// COMING SOON, UNDER DEVELOPMENT
+
 package org.kygekteam.kygekwhitelistkick.form;
 
 import cn.nukkit.Player;

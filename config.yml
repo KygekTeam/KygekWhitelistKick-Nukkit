@@ -4,12 +4,12 @@
 
 ##### DANGER ZONE #####
 # Do not change this (Only for internal use)!
-config-version: "1.3"
+config-version: "1.2"
 # If you encounter bugs set this to true to reset the config!
 reset: false
 #######################
 
-# Set the configuration mode
+# [COMING SOON] Set the configuration mode
 # command: Use commands to configure KygekWhitelistKick
 # form: Use forms to configure KygekWhitelistKick
 mode: command

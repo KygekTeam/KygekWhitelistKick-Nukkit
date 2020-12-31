@@ -35,7 +35,7 @@ public class WhitelistKick extends PluginBase implements Listener {
         instance = this;
 
         this.saveDefaultConfig();
-        if (!this.getConfig().getString("config-version").equals("1.3")) {
+        if (!this.getConfig().getString("config-version").equals("1.2")) {
             this.getLogger().notice("Your configuration file is outdated, updating the config.yml...");
             this.getLogger().notice("The old configuration file can be found at config_old.yml");
             this.renameConfig();
