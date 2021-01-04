@@ -1,14 +1,12 @@
 /*
  * Kicks not whitelisted players when server whitelist turned on
- * Copyright (C) 2020 KygekTeam
+ * Copyright (C) 2020-2021 KygekTeam
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  */
-
-// COMING SOON, UNDER DEVELOPMENT
 
 package org.kygekteam.kygekwhitelistkick.form;
 

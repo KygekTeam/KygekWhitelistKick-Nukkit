@@ -1,6 +1,6 @@
 /*
  * Kicks not whitelisted players when server whitelist turned on
- * Copyright (C) 2020 KygekTeam
+ * Copyright (C) 2020-2021 KygekTeam
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -10,9 +10,11 @@
 
 package org.kygekteam.kygekwhitelistkick;
 
+import cn.nukkit.Player;
 import cn.nukkit.command.CommandSender;
 import cn.nukkit.command.PluginCommand;
 import cn.nukkit.utils.TextFormat;
+import org.kygekteam.kygekwhitelistkick.form.Forms;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -36,8 +38,7 @@ public class Commands extends PluginCommand<WhitelistKick> {
         WhitelistKick plugin = this.getPlugin();
         if (plugin.configExists()) plugin.reloadConfig();
 
-        // TODO: Add Form mode in version 1.3.0
-        /*if (plugin.getConfig().getString("mode").equalsIgnoreCase("form")) {
+        if (plugin.getConfig().getString("mode").equalsIgnoreCase("form")) {
             if (!(sender instanceof Player)) {
                 sender.sendMessage(WhitelistKick.PREFIX + TextFormat.RED + "Form mode can only be executed in-game!");
                 return true;
@@ -58,7 +59,7 @@ public class Commands extends PluginCommand<WhitelistKick> {
 
             new Forms().mainForm((Player) sender);
             return true;
-        }*/
+        }
 
         if (args.length < 1) {
             if (sender.hasPermission("kygekwhitelistkick.cmd.help")) plugin.sendHelp(sender);

@@ -1,6 +1,6 @@
 /*
  * Kicks not whitelisted players when server whitelist turned on
- * Copyright (C) 2020 KygekTeam
+ * Copyright (C) 2020-2021 KygekTeam
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -35,7 +35,7 @@ public class WhitelistKick extends PluginBase implements Listener {
         instance = this;
 
         this.saveDefaultConfig();
-        if (!this.getConfig().getString("config-version").equals("1.2")) {
+        if (!this.getConfig().getString("config-version").equals("1.3")) {
             this.getLogger().notice("Your configuration file is outdated, updating the config.yml...");
             this.getLogger().notice("The old configuration file can be found at config_old.yml");
             this.renameConfig();
