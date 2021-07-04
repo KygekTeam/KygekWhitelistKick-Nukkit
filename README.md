@@ -2,6 +2,8 @@
 
 # KygekWhitelistKick
 
+[![Discord](https://img.shields.io/discord/735439472992321587.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/CXtqUZv)
+
 This plugin will kick players that are not OP or whitelisted in white-list.txt when server whitelist turned on (/whitelist on). This plugin will be useful if you often need to whitelist your server and you want all not whitelisted players to be kicked automatically. You can change the kick reason and to enable/disable kick via command or config.
 
 # Features
@@ -45,3 +47,7 @@ KygekWhitelistKick plugin is made by KygekTeam and licensed under GPL-3.0.
 - Join our Discord server <a href="https://discord.gg/CXtqUZv">here</a> for latest updates from KygekTeam.
 - If you found bugs or want to give suggestions, please visit <a href="https://github.com/KygekTeam/KygekWhitelistKick-Nukkit/issues">here</a> or join our Discord server.
 - We accept all contributions! If you want to contribute please make a pull request in <a href="https://github.com/KygekTeam/KygekWhitelistKick-Nukkit/pulls">here</a>.
+
+# Other Versions
+
+- [PocketMine-MP](https://github.com/KygekTeam/KygekWhitelistKick)
